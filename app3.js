@@ -1,4 +1,6 @@
 const url = 'https://script.google.com/macros/s/AKfycbyq9NjhO9Ns8GJr4B09JZanL3nuNV2lSrhTlvJ44lVMWteXEGxYSDMOjZaZpKkG5-qe/exec';
+//calls on Google App script service to intake form data, push to excel sheet and send out emails
+
 const myForm = document.querySelector('#myForm');
 const myName = document.querySelector("#name");
 const myEmail = document.querySelector("#email");
